@@ -1,10 +1,10 @@
 # wad_Hw_1
-##Intro
+## Intro
 Web application development course homework 1 submission repository.
-##Team
+## Team
 Eleonoora Kõrge, Ursula Raie, Tuuli-Mia Haas
-##Work distribution
+## Work distribution
 //stuff
-##Usage
+## Usage
 //stuff
-##dunno maybe more info, ei oska midagi hetkel välja mõelda, mis oleks hea lisada
+## dunno maybe more info, ei oska midagi hetkel välja mõelda, mis oleks hea lisada
