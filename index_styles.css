@@ -8,6 +8,7 @@
     border-radius: 5px;
     background-color: rgb(183, 182, 182);
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 #header_buttons {
@@ -23,12 +24,17 @@
     border-radius: 5px;
 }
 
+#header_buttons > button > a {
+    text-decoration: none;
+    color: black;
+}
+
 #header_buttons > button:hover {
     background-color: rgb(116, 115, 115);
     color: white;
 }
 
-#profile_pic_div > #profile_pic {
+#header > #profile_pic_div > #profile_pic {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -41,15 +47,30 @@
     justify-content: space-between;
 }
 
+#rightside_column, #leftside_column {
+    width: 350px;
+    background-color: rgb(183, 182, 182);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(183, 182, 182);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
 #posts {
     margin-left: 40px;
     margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .post {
     width: 400px;
-    height: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    background-color: rgb(213, 213, 213);
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .post_header {
@@ -69,7 +90,8 @@
 .post_pic_div {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    align-items: center;
+    margin: 10px auto 0 auto;
     width: 200px;
     height: 200px;
 }
@@ -77,6 +99,37 @@
 .post_pic {
     width: 100%;
     height: 100%;
+}
+
+.like_button_div {
+    width: 40px;
+    height: 40px;
+}
+
+.like_button {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(183, 182, 182);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.like_button:hover {
+    background-color: rgb(116, 115, 115);
+}
+
+.like_button:active {
+    background-color: rgb(53, 53, 53);
+}
+
+.like_button > .like_icon {
+    width: 100%;
+    height: 100%;
+}
+
+.like_button > .like_icon:active {
+    filter: brightness(0) invert(1);
 }
 
 #footer {
