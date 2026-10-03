@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html>
 <!--looks okay with width 238px after that not-->
+
 <head>
     <title>Home</title>
-    <link href="index_styles.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <!-- credit for favion: https://www.flaticon.com/free-icons/marketing-->
 </head>
 
 <body>
-    <header id="header">
-        <div id="header_buttons">
-            <button><a href="index.html">Home</a></button>
-            <p>|</p>
-            <button><a href="addPost.html">addPost</a></button>
-        </div>
-        <div id="profile_pic_div">
-            <img src="images\account.png" alt="profile" id="profile_pic">
-            <!--credit for vector: https://www.flaticon.com/free-icons/user-->
-        </div>
+    <header class="header" id="index_header">
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li id="button_seperator">|</li>
+                <li><a href="addPost.html" class="nav-link">addPost</a></li>
+            </ul>
+        </nav>
+        <img src="images\account.png" alt="profile" class="avatar">
+        <!--credit for vector: https://www.flaticon.com/free-icons/user-->
     </header>
-    <div id="main_content_div">
+    <main id="main_content">
         <div id="rightside_column"></div>
         <div id="middle_column">
             <div id="posts">
-                <div class="post">
+                <article class="post">
                     <div class="post_header">
                         <img src="images\account.png" alt="profile" class="post_profile_pic">
                         <p class="post_date">Oct 22, 2022</p>
@@ -34,30 +35,33 @@
                             <img src="images\full-moon.png" alt="full moon" class="post_pic">
                         </div>
                         <!--credit for pic: https://www.flaticon.com/free-icons/moon-->
-                        <p>Did you know that to cure a werewolf a loved one has to chuck their clothes at them and 
+                        <p>Did you know that to cure a werewolf a loved one has to chuck their clothes at them and
                             call their human name? Try it out next time you have such a problem!</p>
                     </div>
                     <div class="like_button_div">
-                        <button class="like_button"><img src="images\thumbs-up.png" alt="like" class="like_icon"></button>
+                        <button class="like_button"><img src="images\thumbs-up.png" alt="like"
+                                class="like_icon"></button>
                         <!--credit for icon: https://www.flaticon.com/free-icons/thumbs-up-->
                     </div>
-                </div>
-                <div class="post">
+                </article>
+                <article class="post">
                     <div class="post_header">
                         <img src="images\account.png" alt="profile" class="post_profile_pic">
                         <p class="post_date">Oct 22, 2022</p>
                     </div>
                     <div class="post_content">
-                        <p>Tired of prowling the internet for music sheets? Check out our site! All our music sheets are 
-                            complete, there are no mistakes and are humanely possible. Check out our site now: 
-                            <a href="index.html">Our Site</a></p>
+                        <p>Tired of prowling the internet for music sheets? Check out our site! All our music sheets are
+                            complete, there are no mistakes and are humanely possible. Check out our site now:
+                            <a href="index.html">Our Site</a>
+                        </p>
                     </div>
                     <div class="like_button_div">
-                        <button class="like_button"><img src="images\thumbs-up.png" alt="like" class="like_icon"></button>
+                        <button class="like_button"><img src="images\thumbs-up.png" alt="like"
+                                class="like_icon"></button>
                         <!--credit for icon: https://www.flaticon.com/free-icons/thumbs-up-->
                     </div>
-                </div>
-                <div class="post">
+                </article>
+                <article class="post">
                     <div class="post_header">
                         <img src="images\account.png" alt="profile" class="post_profile_pic">
                         <p class="post_date">Oct 22, 2022</p>
@@ -69,24 +73,27 @@
                         <p>Found my cat like this!</p>
                     </div>
                     <div class="like_button_div">
-                        <button class="like_button"><img src="images\thumbs-up.png" alt="like" class="like_icon"></button>
+                        <button class="like_button"><img src="images\thumbs-up.png" alt="like"
+                                class="like_icon"></button>
                         <!--credit for icon: https://www.flaticon.com/free-icons/thumbs-up-->
                     </div>
-                </div>
-                <div class="post">
+                </article>
+                <article class="post">
                     <div class="post_header">
                         <img src="images\account.png" alt="profile" class="post_profile_pic">
                         <p class="post_date">Oct 22, 2022</p>
                     </div>
                     <div class="post_content">
-                        <p>Saw a video where they were calculating the color of magic in D&D! It was really interesting!</p>
+                        <p>Saw a video where they were calculating the color of magic in D&D! It was really interesting!
+                        </p>
                     </div>
                     <div class="like_button_div">
-                        <button class="like_button"><img src="images\thumbs-up.png" alt="like" class="like_icon"></button>
+                        <button class="like_button"><img src="images\thumbs-up.png" alt="like"
+                                class="like_icon"></button>
                         <!--credit for icon: https://www.flaticon.com/free-icons/thumbs-up-->
                     </div>
-                </div>
-                <div class="post">
+                </article>
+                <article class="post">
                     <div class="post_header">
                         <img src="images\account.png" alt="profile" class="post_profile_pic">
                         <p class="post_date">Oct 22, 2022</p>
@@ -98,14 +105,15 @@
                         <p>Got a new mug today!</p>
                     </div>
                     <div class="like_button_div">
-                        <button class="like_button"><img src="images\thumbs-up.png" alt="like" class="like_icon"></button>
+                        <button class="like_button"><img src="images\thumbs-up.png" alt="like"
+                                class="like_icon"></button>
                         <!--credit for icon: https://www.flaticon.com/free-icons/thumbs-up-->
                     </div>
-                </div>
+                </article>
             </div>
         </div>
         <div id="leftside_column"></div>
-    </div>
+    </main>
     <footer id="footer">
         <p>Footer</p>
     </footer>
