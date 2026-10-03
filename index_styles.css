@@ -17,19 +17,24 @@
     margin-left: 25px;
 }
 
-#header_buttons > button {
+#header_buttons button { /* descendant selector */
     border: none;
     background-color: rgb(183, 182, 182);
     cursor: pointer;
     border-radius: 5px;
 }
 
-#header_buttons > button > a {
+#header_buttons > button > a { /* child selector */
     text-decoration: none;
     color: black;
 }
 
-#header_buttons > button:hover {
+#header_buttons button + button {
+    margin-left: 15px;
+    border-left: 1px solid #ccc; /* adjacent sibling selector */
+}
+
+#header_buttons > button:hover { /* pseudo-class */
     background-color: rgb(116, 115, 115);
     color: white;
 }
@@ -73,6 +78,10 @@
     border-radius: 5px;
 }
 
+.post:hover ~ .post { /* general sibling selector */
+    opacity: 0.6;
+}
+
 .post_header {
     display: flex;
     flex-direction: row;
@@ -94,6 +103,10 @@
     margin: 10px auto 0 auto;
     width: 200px;
     height: 200px;
+}
+
+.post_pic_div + p { /* adjacent sibling selector */
+    margin-top: 12px;
 }
 
 .post_pic {
