@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+
+<body>
+
+<!-- Navigation bar -->
+<header class="header">
+    <nav class="nav-bar">
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+        </ul>
+    </nav>
+    <img class="avatar" src="images/account.png" alt="User profile">
+</header>
+
+<!-- Main form for Login -->
+
+<main class="container">
+        <section class="login-card">
+            <h2>Welcome to PostIt</h2>
+            <a href="#" class="account-link">Create an account</a>
+            <p class="divider-text">or</p>
+            <h3>Please log in</h3>
+
+            <!-- Form redirects to index.html on submit -->
+            <form action="index.html" method="GET" class="login-form">
+                <div class="field-group">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="field-group">
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+                <button type="submit" class="submit-button">Log in</button>
+            </form>
+
+            <a href="#" class="forgot-link">Forget password</a>
+        </section>
+</main>
+
+
+
+</body>
+</html>
