@@ -38,14 +38,14 @@ body {
 }
 
 .nav-links {
-    display: flex;              
-    gap: 20px;
+    display: flex;
     list-style: none;
+    padding-left: 0;
 }
 
 .nav-link {
     display: inline-block;
-    padding: 8px 15px;
+    padding: 8px 10px;
     border-radius: 5px;
     text-decoration: none;
     color: #222;
