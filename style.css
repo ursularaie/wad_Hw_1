@@ -1,16 +1,13 @@
-/* Global */
 * {
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Body: flex column so footer sticks to bottom */
 body {
     background: #fbfbfb;
     color: #222;
 }
 
-/* Header */
 .header {
     display: flex;
     justify-content: space-between;
@@ -21,7 +18,7 @@ body {
     margin-bottom: 10px;
 }
 
-#button_seperator {
+#button_separator {
     margin-top: 7px;
 }
 
@@ -59,7 +56,6 @@ body {
     color: #fff;
 }
 
-/* Main */
 .container {                  
     display: flex;              
     justify-content: center;
@@ -68,7 +64,7 @@ body {
 }
 
 /* specific index.html stuff starts here and don't think that they can be added with anything else*/
-#main_content { /* index.html has different layout which is why it has id and is seperate */
+#main_content { /* index.html has different layout which is why it has id and is separate */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -97,7 +93,8 @@ body {
     border-radius: 5px;
 }
 
-.post:hover ~ .post { /* general sibling selector */
+/* RULE: General Sibling selector — hover changes opacity */
+.post:hover ~ .post {
     opacity: 0.6;
 }
 
@@ -124,7 +121,8 @@ body {
     height: 200px;
 }
 
-.post_pic_div + p { /* adjacent sibling selector */
+/* RULE: Adjacent Sibling Selector */
+.post_pic_div + p {
     margin-top: 12px;
 }
 
@@ -147,19 +145,23 @@ body {
     border-radius: 5px;
 }
 
+/* RULE: Pseudo-class */
 .like_button:hover {
     background-color: rgb(116, 115, 115);
 }
 
+/* RULE: Pseudo-class */
 .like_button:active {
     background-color: rgb(53, 53, 53);
 }
 
+/* RULE: Child Selector */
 .like_button > .like_icon {
     width: 100%;
     height: 100%;
 }
 
+/* RULE: Child Selector */
 .like_button > .like_icon:active {
     filter: brightness(0) invert(1);
 }
@@ -173,7 +175,7 @@ body {
 }
 /* specific index.html stuff stops here */
 
-/* Post form */
+/* Post form starts here*/
 .form-card {
     background: #d1d1d1;
     border-radius: 10px;
@@ -189,7 +191,7 @@ body {
     margin-bottom: 30px;
 }
 
-/* Labels */
+/* RULE: Descendant Selector */
 .form-row label {
     font-size: 14px;
     color: #222;
@@ -198,7 +200,6 @@ body {
     line-height: 1.2;
 }
 
-/* Textarea */
 textarea {
     min-width: 0;
     height: 130px;
@@ -210,7 +211,6 @@ textarea {
     outline: none;
 }
 
-/* File input */
 .file-input-wrapper {
     position: relative;
 }
@@ -234,7 +234,6 @@ textarea {
     cursor: pointer;
 }
 
-/* Submit button */
 .submit-button {
     display: block;
     margin: 10px auto 0;
@@ -247,11 +246,15 @@ textarea {
     cursor: pointer;
 }
 
+/* RULE: Pseudo-class */
 .submit-button:hover {
     background: #163a6b;
 }
 
-/* Login form */
+/* Post form ends here */
+
+
+/* Login card starts here */
 .login-card{
     background: #d1d1d1;
     border-radius: 10px;
@@ -262,24 +265,24 @@ textarea {
     text-align: center;
 }
 
-/* Child selectors for h2 and h3*/
-
+/* RULE: Child Selector */
 .login-card > h2{
     font-weight: bold;
     margin: 0 0 20px 0;
     font-size: 18px;
 }
 
+/* RULE: Descendant Selector */
 .login-card p{
     margin: 6px 0;
 }
 
+/* RULE: Child Selector */
 .login-card > h3{
     font-weight: normal;
     margin: 6px 0 16px 0;
     font-size: 18px;
 }
-
 
 /*Blue links*/
 a.account-link, a.forgot-link{
@@ -312,6 +315,7 @@ a.forgot-link{
     background-color: #ffffff;
 }
 
+/* RULE: Pseudo-element */
 .login-form input::placeholder {
     color: #b0b0b0;
 }
