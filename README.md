@@ -4,5 +4,5 @@ Web application development course homework 1.
 ## Team Y
 Eleonoora Kõrge, Ursula Raie, Tuuli-Mia Haas
 ## Usage
-* fork the repo
-* open it in a ide that is capable of interperting html and css, for example visual studio code.
+* Fork the repo.
+* Open it in an IDE that is capable of interpreting HTML and CSS, for example Visual Studio Code.
