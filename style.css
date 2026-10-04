@@ -161,7 +161,7 @@ body {
     height: 100%;
 }
 
-/* RULE: Child Selector */
+/* RULE: Child Selector + pseudo-class */
 .like_button > .like_icon:active {
     filter: brightness(0) invert(1);
 }
@@ -201,7 +201,6 @@ body {
 }
 
 textarea {
-    min-width: 0;
     height: 130px;
     border: none;
     padding: 8px;
@@ -250,7 +249,6 @@ textarea {
 .submit-button:hover {
     background: #163a6b;
 }
-
 /* Post form ends here */
 
 
