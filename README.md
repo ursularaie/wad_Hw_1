@@ -3,5 +3,6 @@
 Web application development course homework 1.
 ## Team Y
 Eleonoora Kõrge, Ursula Raie, Tuuli-Mia Haas
-## Possible improvements
-Using template tag in html and javascript the html file would look more readable and posts would be nicer to add.
+## Usage
+* Fork the repo.
+* Open it in an IDE that is capable of interpreting HTML and CSS, for example Visual Studio Code.
