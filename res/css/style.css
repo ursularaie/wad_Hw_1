@@ -131,6 +131,10 @@ body {
     height: 100%;
 }
 
+.username {
+    margin-bottom: 10px;
+}
+
 .like_button_div {
     width: 40px;
     height: 40px;

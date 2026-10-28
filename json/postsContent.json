@@ -1,0 +1,40 @@
+{
+    "Posts": [
+        {
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "accountName": "myth-central",
+            "postDate": "2026-06-15",
+            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/full-moon.png",
+            "picAlt": "full moon",
+            "postText": "Did you know that to cure a werewolf a loved one has to chuck their clothes at them and call their human name? Try it out next time you have such a problem!"
+        },
+        {
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "accountName": "notAScam",
+            "postDate": "2000-06-15",
+            "postText": "Tired of prowling the internet for music sheets? Check out our site! All our music sheets are complete, there are no mistakes and are humanely possible. Check out our site now: [Our Site](index.html)"
+        },
+        {
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "accountName": "catsRlife",
+            "postDate": "2026-03-15",
+            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/cat.jpg",
+            "picAlt": "cat",
+            "postText": "Found my cat like this!"
+        },
+        {
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "accountName": "dunno",
+            "postDate": "2026-03-25",
+            "postText": "Saw a video where they were calculating the color of magic in D&D! It was really interesting!"   
+        },
+        {
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "accountName": "Roosi",
+            "postDate": "2026-03-15",
+            "postPic": "https://github.com/ursularaie/wad_Hw_1/blob/main/images/mug.jpg",
+            "picAlt": "mug",
+            "postText": "Got a new mug today!"
+        }
+    ]
+}
