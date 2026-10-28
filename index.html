@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <!--took away: <meta name="viewport" content="width=device-width, initial-scale=1.0"> because it messed with the phone layout-->
     <title>Home</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="res\css\style.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <!-- credit for favion: https://www.flaticon.com/free-icons/marketing-->
 </head>
@@ -121,6 +121,24 @@
     <footer id="footer">
         <p>Footer</p>
     </footer>
+    <template class="post-template">
+        <article class="post">
+            <div class="post_header">
+                <img src="" alt="profile picture" class="post_profile_pic">
+                <p class="post_date"></p>
+            </div>
+            <div class="post_content">
+                <div class="post_pic_div">
+                            <img src="" alt="mug" class="post_pic">
+                        </div>
+                <p class="post_text"></p>
+            </div>
+            <div class="like_button_div">
+                <button class="like_button"><img src="images/thumbs-up.png" alt="like button" class="like_icon"></button> <!--no need for this to be taken from json becuase it's the same everywhere-->
+                <!--credit for icon: https://www.flaticon.com/free-icons/thumbs-up-->
+            </div>
+        </article>
+    </template>
 </body>
 
 </html>
