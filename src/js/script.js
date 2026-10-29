@@ -7,33 +7,33 @@ function showPosts(post) {
 
     clone.querySelector(".post_profile_pic").src = post.profileImage;
     clone.querySelector(".post_date").innerText = post.postDate;
-    
+
     let picDiv = clone.querySelector(".post_pic_div");
-    
+
     if (post.postPic != null) {
         clone.querySelector(".post_pic").src = post.postPic;
         clone.querySelector(".post_pic").alt = post.picAlt;
     } else {
         picDiv.remove();
     }
-    
+
     clone.querySelector(".post_text").innerHTML = post.postText;
     clone.querySelector(".username").innerText = post.accountName;
 
     postsDiv.appendChild(clone);
 }
 
-fetch('https://api.npoint.io/60efb59b5728e6e930e5')
+/* fetch('https://api.npoint.io/e63b6ccf93273f953880')
     .then((response) => response.json())
     .then(json => {
         for (let i = 0; i < json.Posts.length; i++) {
             showPosts(json.Posts[i]);
         }
     })
-    .catch(error => console.error("Error loading posts from URL:", error));
+    .catch(error => console.error("Error loading posts from URL:", error)); */
 
 
-fetch('json/postsContent.json') // Make sure the path matches your project structure
+fetch('res/json/postsContent.json')
     .then((response) => response.json())
     .then(json => {
         for (let i = 0; i < json.Posts.length; i++) {
@@ -41,10 +41,10 @@ fetch('json/postsContent.json') // Make sure the path matches your project struc
         }
     })
     .catch(error => console.error("Error loading posts locally:", error));
-    
-    
+
+
 // instead of using GET since POST doesn't currently work    
-document.getElementById("loginForm").addEventListener("submit", function(e) {
+document.getElementById("loginForm").addEventListener("submit", function (e) {
     e.preventDefault();
     window.location.href = "index.html"; // Redirects to home page manually
 });    
