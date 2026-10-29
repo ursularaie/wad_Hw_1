@@ -12,7 +12,7 @@
             "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
             "accountName": "notAScam",
             "postDate": "2000-06-15",
-            "postText": "Tired of prowling the internet for music sheets? Check out our site! All our music sheets are complete, there are no mistakes and are humanely possible. Check out our site now: [Our Site](index.html)"
+            "postText": "Tired of prowling the internet for music sheets? Check out our site! All our music sheets are complete, there are no mistakes and are humanely possible. Check out our site now: <a href=\"index.html\">Our Site</a>"
         },
         {
             "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
@@ -32,9 +32,45 @@
             "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
             "accountName": "Roosi",
             "postDate": "2026-03-15",
-            "postPic": "https://github.com/ursularaie/wad_Hw_1/blob/main/images/mug.jpg",
+            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/mug.jpg",
             "picAlt": "mug",
             "postText": "Got a new mug today!"
+        },
+        {
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "accountName": "DuolingoFan",
+            "postDate": "2026-03-31",
+            "postText": "¡Hola! ¿Quieres ser mi amigo?"   
+        },
+        {
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "accountName": "AnimalLover03",
+            "postDate": "2026-03-17",
+            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/stompy.jpg",
+            "picAlt": "Stompy the Emu",
+            "postText": "Support the awesome work of Alveus Sanctuary!"
+        },
+        {
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "accountName": "huh?",
+            "postDate": "2026-03-15",
+            "postText": "If I shenan once, I shall shenanigan."
+        },
+        {
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "accountName": "AnimalLover03",
+            "postDate": "2026-03-15",
+            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/winnie.jpg",
+            "picAlt": "Winnie the Moo",
+            "postText": "Another Alveus plug!"
+        },
+        {
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "accountName": "Roosi",
+            "postDate": "2026-03-15",
+            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/roosi.jpg",
+            "picAlt": "Roosi",
+            "postText": "Look at this furball"
         }
     ]
 }

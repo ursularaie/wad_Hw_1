@@ -17,17 +17,34 @@ function showPosts(post) {
         picDiv.remove();
     }
     
-    clone.querySelector(".post_text").innerText = post.postText;
+    clone.querySelector(".post_text").innerHTML = post.postText;
     clone.querySelector(".username").innerText = post.accountName;
 
     postsDiv.appendChild(clone);
 }
 
-fetch('json/postsContent.json') //change the url once it's in server, might need to keep picture as 
+fetch('https://api.npoint.io/60efb59b5728e6e930e5')
     .then((response) => response.json())
     .then(json => {
         for (let i = 0; i < json.Posts.length; i++) {
             showPosts(json.Posts[i]);
         }
     })
-    .catch(error => console.error("Error loading posts:", error));
+    .catch(error => console.error("Error loading posts from URL:", error));
+
+
+fetch('json/postsContent.json') // Make sure the path matches your project structure
+    .then((response) => response.json())
+    .then(json => {
+        for (let i = 0; i < json.Posts.length; i++) {
+            showPosts(json.Posts[i]);
+        }
+    })
+    .catch(error => console.error("Error loading posts locally:", error));
+    
+    
+// instead of using GET since POST doesn't currently work    
+document.getElementById("loginForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    window.location.href = "index.html"; // Redirects to home page manually
+});    
