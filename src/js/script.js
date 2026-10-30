@@ -26,17 +26,17 @@ function showPosts(post) {
     postsDiv.appendChild(clone);
 }
 
-/* fetch('https://api.npoint.io/e63b6ccf93273f953880')
+fetch('https://api.npoint.io/c288ee2d6ecfa4f502b7')
     .then((response) => response.json())
     .then(json => {
         for (let i = 0; i < json.Posts.length; i++) {
             showPosts(json.Posts[i]);
         }
     })
-    .catch(error => console.error("Error loading posts from URL:", error)); */
+    .catch(error => console.error("Error loading posts from URL:", error));
 
 
-fetch('res/json/postsContent.json')
+/* fetch('res/json/postsContent.json')
     .then((response) => response.json())
     .then(json => {
         for (let i = 0; i < json.Posts.length; i++) {
@@ -44,7 +44,7 @@ fetch('res/json/postsContent.json')
         }
     })
     .catch(error => console.error("Error loading posts locally:", error));
-
+ */
 
 // instead of using GET since POST doesn't currently work    
 document.getElementById("loginForm").addEventListener("submit", function (e) {
