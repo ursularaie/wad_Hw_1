@@ -17,7 +17,10 @@ function showPosts(post) {
         picDiv.remove();
     }
 
-    clone.querySelector(".post_text").innerHTML = post.postText;
+    if (post.postText != null) { // maybe post has no text
+        clone.querySelector(".post_text").innerHTML = post.postText;
+    }
+
     clone.querySelector(".username").innerText = post.accountName;
 
     postsDiv.appendChild(clone);
