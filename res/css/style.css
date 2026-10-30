@@ -131,8 +131,9 @@ body {
     height: 100%;
 }
 
-.username {
+#posts .username {
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .like_button_div {

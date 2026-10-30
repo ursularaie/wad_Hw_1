@@ -71,6 +71,13 @@
             "postPic": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/roosi.jpg",
             "picAlt": "Roosi",
             "postText": "this is the face of someone who knows no wrong. and is posing for a picture."
+        },
+        {
+            "profileImage": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/account.png",
+            "accountName": "Hirved2",
+            "postDate": "2026-10-30",
+            "postPic": "https://raw.githubusercontent.com/ursularaie/wad_Hw_1/refs/heads/main/images/deer.jpg",
+            "picAlt": "Deer in garden"
         }
     ]
 }
