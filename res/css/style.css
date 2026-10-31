@@ -322,3 +322,45 @@ a.forgot-link{
 .login-form input::placeholder {
     color: #b0b0b0;
 }
+
+/* profile dropdown styling */
+
+.profile-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 60px; /* Positioned directly below the header avatar */
+    background-color: #d1d1d1; 
+    border-radius: 5px;
+    padding: 14px 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    min-width: 170px;
+    z-index: 1000;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Hides the dropdown when the 'hidden' class is present */
+.dropdown-menu.hidden {
+    display: none;
+}
+
+/*unifrom for all 3 lines*/
+.dropdown-name,
+.dropdown-email,
+.dropdown-logout {
+    font-size: 15px;
+    font-weight: normal;
+    color: #222;
+    margin: 0;
+    text-decoration: none;
+}
+
