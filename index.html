@@ -21,8 +21,16 @@
                 <li><a href="addPost.html" class="nav-link">addPost</a></li>
             </ul>
         </nav>
-        <img src="images/account.png" alt="profile" class="avatar">
-        <!--credit for vector: https://www.flaticon.com/free-icons/user-->
+        <div class="profile-container">
+            <img src="images/account.png" alt="profile" class="avatar" id="avatar-button">
+            <!--credit for vector: https://www.flaticon.com/free-icons/user-->
+            <div id="dropdown-menu" class="dropdown-menu hidden">
+                <p class="dropdown-name">John Doe</p>
+                <p class="dropdown-email">john.doe@ut.ee</p>
+                <a href="login.html" class="dropdown-logout">Logout</a>
+            </div>
+        </div>
+        
     </header>
     <main id="main_content">
         <div id="rightside_column"></div>
