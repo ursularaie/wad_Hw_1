@@ -46,8 +46,21 @@ fetch('res/json/postsContent.json')
     .catch(error => console.error("Error loading posts locally:", error));
 
 
-// instead of using GET since POST doesn't currently work    
-document.getElementById("loginForm").addEventListener("submit", function (e) {
-    e.preventDefault();
-    window.location.href = "index.html"; // Redirects to home page manually
-});    
+function profileDropdown(){
+    const avatarButton = document.getElementById("avatar-button");
+    const dropdownMenu = document.getElementById("dropdown-menu");
+
+    if(avatarButton && dropdownMenu){
+        avatarButton.addEventListener("click", (event) => {
+            event.stopPropagation();
+            dropdownMenu.classList.toggle("hidden");
+        });
+    }
+}
+
+//when loaded
+document.addEventListener("DOMContentLoaded", () => {
+    profileDropdown();
+});
+
+
